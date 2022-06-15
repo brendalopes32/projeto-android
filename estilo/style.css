@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(170, 245, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    background-image: linear-gradient( to bottom, rgb(7, 211, 126), rgb(11, 116, 72));
+    color: rgba(255, 255, 255, 0.938);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+    padding: 10px;
+    margin: -8px -8px 0px -8px;
+}
+
+header > p {
+    margin: 30px;
+}
+
+nav {
+    text-align: left;
+    padding: 0px 15px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav > a:hover {
+    background-color: rgba(52, 207, 143, 0.356);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    width: 820px;
+    height: 2125px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+    padding: 10px 15px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'idroid', sans-serif;
+    font-weight: 800;
+    color: rgb(11, 116, 72);  
+}
+
+h3 {
+    background-image: linear-gradient( to right, rgba(7, 184, 110, 0.158), rgba(11, 116, 72, 0.055));
+    font-family: 'idroid', sans-serif;
+    font-weight: 800;
+    color: rgb(11, 116, 72);
+}
+
+p {
+    text-indent: 20px;
+}
+
+.destaque-palavras {
+    color: rgb(23, 158, 102);
+    font-weight: 800;
+}
+
+.destaque-palavras > a {
+    text-decoration: none;
+}
+
+.destaque-palavras > a:hover {
+    text-decoration: underline;
+}
+
+.destaque-palavras > a:visited {
+    color: rgb(23, 158, 102);
+    font-weight: 800;
+}
+
+.centralizar-imagem {
+    text-align: center;
+}
+
+.config-video {
+    background-color: rgb(11, 116, 72);
+    text-align: center;
+    padding: 20px;
+    margin: 13px -15px 13px -15px;
+}
+
+aside {
+    background-color: rgb(170, 245, 214);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+    padding: 8px;
+}
+
+h4 {
+    background-color: rgb(53, 190, 133);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: -8px;
+}
+
+.config-conteudo-aside {
+    padding: 7px;
+}
+
+ul {
+    columns: 2;
+    margin-left: -39px;
+}
+
+.config-check {
+    font-weight: 900;
+}
+
+footer {
+    background-color: rgb(11, 116, 72);
+    color: white;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;  
+}
+
+footer > p {
+    padding: 10px;
+}
+
+
